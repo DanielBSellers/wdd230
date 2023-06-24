@@ -1,0 +1,67 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: slateblue;
+    padding: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
+#WDD {
+    position: relative;
+    top: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    filter: drop-shadow(5px 5px 5px #1a1a1a);
+    text-decoration: underline;
+    
+}
+#imageOfDaniel {
+    grid-column: 2;
+    filter: drop-shadow(5px 5px 5px #1a1a1a);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#h1 {
+    position: relative;
+    top: 60px;
+    left: 10%;
+    grid-column: 3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    filter: drop-shadow(1px 1px 3px #1a1a1a);
+}
+.main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#bodyUnderline {
+    border-bottom: solid;
+}
+#quietText{
+    text-align: center;
+    color: gray;
+    opacity: .75;
+}
+footer {
+    padding-top: -10px;
+    background-color: slateblue;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#inlineP {
+    display: inline;
+    color: gold;
+}
+#lastUpdated {
+    color: gold;
+    display: inline;
+}
+#currentYear {
+    display: inline;
+}
