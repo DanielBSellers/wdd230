@@ -1,0 +1,39 @@
+@media screen and (max-width: 320px) {
+    .links {
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
+        margin: 75;
+    }
+    li {
+        padding: 5px;
+    }
+    h1 {
+        padding-top: 30px;
+    }
+    h1, h2 {
+        text-align: center;
+    }
+    #logoSample {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+    .hiddenImage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+    }
+    .minCenter {
+        margin-left:1%;
+        margin-right: 1%;
+    }
+    .gridMain {
+        display: block;
+    }
+    #logoSample {
+        scale: 100%;
+    }
+}

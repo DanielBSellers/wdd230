@@ -1,0 +1,62 @@
+.links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: purple;
+    padding: 25px;
+    scale: 125%;
+    position: relative;
+    bottom: 3px;
+    padding: 50px;
+}
+a {
+    color: whitesmoke;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 50px;
+    margin: -2em;
+}
+.typoEx {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.persona {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hiddenImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* h1, h2, h3, p, li {
+    margin-left: 5%;
+} */
+#colorScheme {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* grid CSS */
+.gridMain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    column-gap: 2em;
+}
+.mainColOne {
+    grid-column: 1;
+}
+.mainColTwo {
+    grid-column: 2;
+}
+.mainColThree {
+    grid-column: 3;
+}
+.mainRow {
+    grid-row: 2;
+}
+h2 {
+    grid-row: 1;
+}
