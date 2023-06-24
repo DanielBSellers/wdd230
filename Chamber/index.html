@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce South Ogden Utah</title>
+    <link rel="icon" type="image/x-icon" href="Icon/faviconBMP.bmp">
+    <link rel="stylesheet" href="Styles/large.css">
+    <link rel="stylesheet" href="Styles/medium.css">
+    <link rel="stylesheet" href="Styles/small.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">About</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#"><img src="Image/Facebook_Logo_(2019).png" alt="Facebook logo" width="25rem"></a></li>
+                <li><a href="#"><img id="pinLogo" src="Image/instagram-logo-instagram-logo.png" alt="Facebook logo" width="25rem"></a></li>
+            </ul>
+        </nav>
+        <div id="headerGrid"><h1>South Ogden Utah Chamber of Commerce</h1>
+        <figure>
+            <img src="Image/simpleLogo.png" alt="image of logo" width="100%"></div>
+        </figure>
+        <p><span id=dow></span>, <span id=numDate></span> <span id=curMonth></span> <span id=year></span></p>
+    </header>
+    <main id="mainGrid">
+        <div id="comeMeetBanner" class="on"><p>&#x1F91D; Come join us for the chamber meet and greet Wednesday at 7:00 p.m.!</p></div>
+        <picture class="picture">
+            <source media="(max-width: 360px)" srcset="Image/heroImageMinest.jpg">
+            <source media="(max-width: 820px)" srcset="Image/heroImageMin.jpg">
+            <source media="(min-width: 821px)" srcset="Image/heroImageHeavy.jpg">
+            <img class="wireframe" id="heroImage" src="Image/heroImageHeavy.jpg" width="100%"/>
+        </picture>
+        <br>
+        <div class="wireframe" id="newsPH"><strong><h2>Local News</h2></strong>
+            <br><p><strong>I-15 crash kills 
+            3, forces temporary closure of roadway in Farr West</strong><br>
+            FARR WEST — A crash on Interstate 15 early Wednesday morning
+             killed three and led to the temporary closure of the 
+             northbound lanes of the road in the area as officials 
+             cleared the road and investigated. The accident occurred 
+             around 2:45 a.m. Wednesday after a northbound vehicle, a 
+             Nissan Altima, hit a deer while in the left-hand traffic 
+             lane, according to a Utah Highway Patrol statement. The 
+             driver then pulled to the right-hand lane and slowed down 
+             or stopped. “A short time later, a white Freightliner semi
+             approached the Altima and did not see it in time before 
+             running into the back of it,” according to the statement. 
+             The crash occurred around milepost 349 in Farr West. 
+             Three people, all seated in the backseat of the Nissan, 
+             sustained fatal injuries and died on the scene. “The driver
+             and front seat passenger sustained serious injuries and were
+              transported to an area hospital. The driver of the semi 
+              was not injured in the crash,” reads the statement. 
+              Officials didn’t name the three people who died but 
+              identified them as a 70-year-old man, a 64-year-old woman 
+              and a 17-year-old female. The adults were from Enid, 
+              Oklahoma, while the teen was from the Marshall Islands. 
+              The northbound I-15 lanes were closed in the area after 
+              the crash, with traffic forced off the roadway at the 2700 
+              North exit in Farr West. At around 6:50 a.m. Wednesday, 
+              the roadway had reopened at the location to two-way 
+              traffic.</p></div>
+        <br>
+        <div class="wireframe" id="eventsPH"><strong><h2>Events</h2></strong>
+            <img src="Image/carShow.jpg" alt="image of car show" width="100%">
+            <p>Come on out to the South Ogden Days Car Show, hosted for 
+            a third year by the Ogden Midnight Runners! Entry for your 
+            vehicle into the show is FREE! We would love to have as many
+            cars, whether they are classic, foreign, modern, trucks, 
+            etc.! All are welcome and encouraged to register for our 
+            free car show at South Ogden Days! Spectators for the event
+            and south Ogden days are free. The event will consist of a
+            car show, concert, fireworks, vendors, food trucks, and so
+            much more! Bring the family out for a great time!</p></div>
+        <br>
+        <div class="wireframe" id="weatherPH"><img id="weatherIcon" src="Image/105-1055404_sun-icon-png-maks-transparent-png.png" width="250px"></img>
+        <h2><span id="temp">45</span>&deg;F</h2>
+        <p>Windspeed: <span id="wSpeed">2</span>mph<br>Windchill :<span id="wChill"><script defer src="Scripts/windChill.js"></script></span></p>
+        </div>
+        <br>
+        <div class="wireframe" id="bisPH">
+            <h2>Buisness Spotlight</h2>
+            <img src="Image/dakcsLogo.png" alt="dakcs logo" width="100%">
+            <p>For 40 years we've been making quality software solutions to tackle monumental challenges.</p>
+        </div>
+        <br>
+    </main>
+    <footer>
+        <img src="Image/simpleLogo.png" alt="logo in footer" width="25px" height="25px">
+        <div>&copy; <div id="currentYear"></div> - Daniel Sellers</div>
+        <p>1-801-622-2800</p>
+        <a href="https://www.google.com/maps/@41.1912805,-111.9678854,19z">Map</a>
+        <p>South Ogden Chamber of Commerce</p>
+        <p>WDD 230 Project</p>
+        <div><p class="inlineP">Last Updated: </p><p id="lastUpdated"></p></div>
+    </footer>
+    <script defer src="Scripts/script.js"></script>
+</body>
+</html>

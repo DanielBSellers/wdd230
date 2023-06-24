@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce South Ogden Utah</title>
+    <link rel="icon" type="image/x-icon" href="Icon/faviconBMP.bmp">
+    <link rel="stylesheet" href="Styles/large.css">
+    <link rel="stylesheet" href="Styles/medium.css">
+    <link rel="stylesheet" href="Styles/small.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">About</a></li>
+                <li><a href="#">Membership</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#"><img src="Image/Facebook_Logo_(2019).png" alt="Facebook logo" width="25rem"></a></li>
+                <li><a href="#"><img id="pinLogo" src="Image/instagram-logo-instagram-logo.png" alt="Facebook logo" width="25rem"></a></li>
+            </ul>
+        </nav>
+        <div id="headerGrid"><h1>South Ogden Utah Chamber of Commerce</h1>
+        <figure>
+            <img src="Image/simpleLogo.png" alt="image of logo" width="100%"></div>
+        </figure>
+        <p><span id=dow></span>, <span id=numDate></span> <span id=curMonth></span> <span id=year></span></p>
+    </header>
+    <main>
+    <h1 id="formHead">Apply to South Ogden Chamber of Commerce</h1>
+    <form id="formOne" method="get" action="thanks.html">
+        <fieldset>
+            <legend>Applicant</legend>
+            <label>First Name*<input type="text" name="fname" placeholder="John" required></label>
+            <label>Last Name*<input type="text" name="lname" placeholder="Doe" required></label>
+        </fieldset>
+        <fieldset>
+            <legend>Business</legend>
+            <label>Business Position*<input type="text" name="bisName" placeholder="My Business position" pattern="[A-Za-z0-9\-\,  ]{7,}" required></label>
+            <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+            <label>Phone*<input type="tel" name="phone" placeholder="1234567890" required></label>
+            <label>Business Name*<input type="text" name="bisName" placeholder="My Business position" required></label>
+            <label>Brief Business Discription<input id="buisDispo" type="text" name="buisDispo" placeholder="Brief Discription"></label>
+        </fieldset>
+        <fieldset id="bisLevelFs">
+            <legend>Membership Level</legend>
+            <div style="overflow-x: auto;">
+            <table>
+                <tr>
+                    <th></th>
+                    <th>NP (Non Profit Orgonizations)</th>
+                    <th>Bronze</th>
+                    <th>Silver</th>
+                    <th>Gold</th>
+                </tr>
+                <tr>
+                    <th class="sideTable">Cost</th>
+                    <td>$0 per month</td>
+                    <td>$10 per month</td>
+                    <td>$20 per month</td>
+                    <td>$25 per month</td>
+                </tr>
+                <tr>
+                    <th class="sideTable">Benefits</th>
+                    <td>
+                        <ul>
+                            <li>A seat at every chamber meeting</li>
+                            <li>Invited to select activities</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>All benefits in NP</li>
+                            <li>Invited to all activites</li>
+                            <li>Newsletter sent out monthly</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>All benefits in Bronze</li>
+                            <li>Select discounts to other businesses</li>
+                            <li>Invites to privet solial media groups 
+                                including Facebook pages and discord server</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>All benefits in Silver</li>
+                            <li>Able to apply to board (when applicable)</li>
+                            <li>Reduced advertising prices within board</li>
+                            <li>Spot on the Buisness Spotlight section on home page</li>
+                        </ul>
+                    </td>
+                </tr>
+              </table>
+              </div>
+              <br><h3>Please Select a Membership Level</h3>
+              <label for="NP">NP</label>
+              <input class="formBtn" type="radio" name="memLev" value="NP">
+              <label for="bronze">Bronze</label>
+              <input class="formBtn" type="radio" name="memLev" value="bronze">
+              <label for="silver">Silver</label>
+              <input class="formBtn" type="radio" name="memLev" value="silver">
+              <label for="gold">Gold</label>
+              <input class="formBtn" type="radio" name="memLev" value="gold">
+        </fieldset>
+        <div id="lastForm"><p>Form last upated: </p><div id="formEdit"></div></div>
+        <button>Submit my application</button>
+    </main>
+    <footer>
+        <img src="Image/simpleLogo.png" alt="logo in footer" width="25px" height="25px">
+        <div>&copy; <div id="currentYear"></div> - Daniel Sellers</div>
+        <p>1-801-622-2800</p>
+        <a href="https://www.google.com/maps/@41.1912805,-111.9678854,19z">Map</a>
+        <p>South Ogden Chamber of Commerce</p>
+        <p>WDD 230 Project</p>
+        <div><p class="inlineP">Last Updated: </p><p id="lastUpdated"></p></div>
+    </footer>
+    <script defer src="Scripts/script.js"></script>
+    <script defer src="Scripts/join.js"></script>
+</body>
+</html>
