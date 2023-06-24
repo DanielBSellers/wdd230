@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+img {
+    opacity: 0;
+    transition: all 1s;
+}
+img.in {
+    opacity: 1;
+}
