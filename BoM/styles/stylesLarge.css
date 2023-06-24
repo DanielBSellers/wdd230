@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(187,238,221);
+    font-family: ROCKBUBBLE, Ariel, sans-serif;
+}
+h1 {
+    background-color: white;
+    padding: 2.5%;
+    scale: 110%;
+    position: relative;
+    bottom: 25px;
+    text-align: center;
+}
+div {
+    display: block;
+    margin-left: 5%;
+}
+ul {
+    border: solid .5px grey;
+    height: 90%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+ul li {
+    margin-top: 1%;
+    list-style-type: none;
+    margin-left: -1.5rem;
+}
+ul .childBtn {
+    float: right;
+    margin-top: 1px;
+    margin-right: 2%;
+}
