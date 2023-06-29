@@ -1,0 +1,48 @@
+@media screen and (min-width: 1000px) {
+    
+    .hiddenImage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #colorScheme {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        scale: 75%
+    }
+    /* grid CSS */
+    .gridMain {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 3fr;
+        column-gap: 2em;
+    }
+    .mainColOne {
+        grid-column: 1;
+    }
+    .mainColTwo {
+        grid-column: 2;
+    }
+    .mainColThree {
+        grid-column: 3;
+        grid-row: 1;
+    }
+    .mainRow {
+        grid-row: 2;
+    }
+    #logoSample {
+        grid-column: 3;
+        grid-row: 2;
+    }
+    h2 {
+        grid-row: 1;
+    }
+    .pAlign {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    h3 {
+        padding-left: 15%;
+    }
+}
