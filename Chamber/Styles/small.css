@@ -71,11 +71,14 @@
         display: block;
     }
     /* body wireframe */
+    main {
+        padding: 0 !important;
+    }
     .wireframe {
         border: solid black;
     }
     #comeMeetBanner {
-        position: absolute;
+        position: relative;
         background-color: #28BBDA;
         display: block;
         width: 100%;
@@ -101,6 +104,10 @@
         text-align: justify;
         margin: 2%
     }
+    #heroImage {
+        width: max-content;
+        margin-left: -15px !important;
+    }
     #imagePH {
         border-style: none;
     }
@@ -121,9 +128,8 @@
         grid-column: 2 / 3;
         grid-row: 1;
         display: block;
-        margin-top: auto;
-        margin-bottom: auto;
-        width: 100%;
+        margin: auto;
+        width: auto;
     }
     #weatherPH h2 {
         grid-column: 1;
@@ -284,7 +290,7 @@
         margin: 20px;
         background-color: #28BBDA;
     }
-    section h2, h3, img, a {
+    section h2 h3 img a {
         margin-left: 10px;
         transition: .25s;
     }

@@ -30,15 +30,16 @@
         </figure>
         <p><span id=dow></span>, <span id=numDate></span> <span id=curMonth></span> <span id=year></span></p>
     </header>
-    <main id="mainGrid">
+    <main>
         <div id="comeMeetBanner" class="on"><p>&#x1F91D; Come join us for the chamber meet and greet Wednesday at 7:00 p.m.!</p></div>
-        <picture class="picture">
+        
+        <picture class="mainPicture" style="margin-left: -10px;">
             <source media="(max-width: 360px)" srcset="Image/heroImageMinest.jpg">
             <source media="(max-width: 820px)" srcset="Image/heroImageMin.jpg">
             <source media="(min-width: 821px)" srcset="Image/heroImageHeavy.jpg">
             <img class="wireframe" id="heroImage" src="Image/heroImageHeavy.jpg" width="100%"/>
         </picture>
-        <br>
+        <div id="mainGrid">
         <div class="wireframe" id="newsPH"><strong><h2>Local News</h2></strong>
             <br><p><strong>I-15 crash kills 
             3, forces temporary closure of roadway in Farr West</strong><br>
@@ -70,7 +71,7 @@
               traffic.</p></div>
         <br>
         <div class="wireframe" id="eventsPH"><strong><h2>Events</h2></strong>
-            <img src="Image/carShow.jpg" alt="image of car show" width="100%">
+            <img src="Image/carShow.jpg" alt="image of car show" width="100%" style="margin-left: 0px;">
             <p>Come on out to the South Ogden Days Car Show, hosted for 
             a third year by the Ogden Midnight Runners! Entry for your 
             vehicle into the show is FREE! We would love to have as many
@@ -82,16 +83,16 @@
             much more! Bring the family out for a great time!</p></div>
         <br>
         <div class="wireframe" id="weatherPH"><img id="weatherIcon" src="Image/105-1055404_sun-icon-png-maks-transparent-png.png" width="250px"></img>
-        <h2><span id="temp">45</span>&deg;F</h2>
-        <p>Windspeed: <span id="wSpeed">2</span>mph<br>Windchill :<span id="wChill"><script defer src="Scripts/windChill.js"></script></span></p>
+        <h2 class="weatherTxt"><span id="temp">45</span>&deg;F</h2>
+        <p class="weatherTxt">Windspeed: <span id="wSpeed">2</span>mph<br>Windchill :<span id="wChill"><script defer src="Scripts/windChill.js"></script></span></p>
         </div>
         <br>
         <div class="wireframe" id="bisPH">
             <h2>Buisness Spotlight</h2>
-            <img src="Image/dakcsLogo.png" alt="dakcs logo" width="100%">
+            <img src="Image/dakcsLogo.png" alt="dakcs logo" width="100%" style="margin-left: 0px;">
             <p>For 40 years we've been making quality software solutions to tackle monumental challenges.</p>
         </div>
-        <br>
+        </div>
     </main>
     <footer>
         <img src="Image/simpleLogo.png" alt="logo in footer" width="25px" height="25px">

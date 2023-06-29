@@ -99,24 +99,20 @@
     #mainGrid {
         display: grid;
         grid-template-columns: 3fr 1fr;
-        grid-template-rows: fr 1fr 1fr;
-        padding-top: 15%;
+        grid-template-rows: 1fr 1fr 1fr;
     }
     .wireframe {
         border: solid black;
     }
-    .picture{
-        grid-row:1/2;
-        grid-column:1/2;
-    }
     #comeMeetBanner {
-        position: absolute;
-        top: 47%;
         background-color: #28BBDA;
         display: block;
         width: 100%;
         margin-left: auto;
         margin-right: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: x-large;
     }
     #comeMeetBanner p {
         text-align: center;
@@ -132,25 +128,16 @@
         text-align: justify;
         margin: 5%
     }
-    #heroImage {
-        grid-row: 1;
-        grid-column-start: 1;
-        grid-column-end: 2;
-        border-style: none;
-        max-width: 100%;
-        border: none;
-        box-shadow: #333;
-    }
     #newsPH {
-        grid-row: 2;
+        grid-row: 1;
         grid-column: 1;
     }
     #eventsPH {
-        grid-row: 3;
+        grid-row: 2;
         grid-column: 1;
     }
     #bisPH {
-        grid-row: 4;
+        grid-row: 3;
         grid-column: 1;
     }
     #weatherPH {
@@ -164,20 +151,21 @@
     #weatherPH img {
         display: block;
         margin-top: auto;
+        width: 100%;
     }
     #weatherPH h2 {
         grid-row: 2;
         display: block;
         margin: auto;
-        scale: 200%;
+        text-align: left;
     }
     #weatherPH p {
         display: block;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: auto;
-        scale: 200%;
         grid-row: 3;
+        text-align: right;
     }
     /* footer */
     footer {
