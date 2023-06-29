@@ -1,4 +1,9 @@
 @media screen and (max-width: 820px) {
+    /* homepage */
+    #h1 {
+        grid-row: 1;
+    }
+    /* header */
     header {
         background-color: rgba(0, 0, 0, .15);
     }
