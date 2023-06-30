@@ -12,7 +12,6 @@
     position: relative;
     top: 50%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    filter: drop-shadow(5px 5px 5px #1a1a1a);
     text-decoration: underline;
     
 }
@@ -28,7 +27,7 @@
     left: 10%;
     grid-column: 3;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    filter: drop-shadow(1px 1px 3px #1a1a1a);
+    text-shadow: 0 0 4px #ffffff;
 }
 .main {
     width: 80%;
@@ -47,21 +46,13 @@ li {
     opacity: .75;
 }
 footer {
-    padding-top: -10px;
     background-color: slateblue;
     text-align: center;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    text-shadow: 0 0 2px #ffffff;
 }
-#inlineP {
-    display: inline;
-    color: gold;
-}
-#lastUpdated {
-    color: gold;
-    display: inline;
-}
-#currentYear {
+#inlineP, #lastUpdated, #currentYear {
     display: inline;
 }
