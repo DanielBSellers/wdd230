@@ -34,8 +34,7 @@
         flex-direction: row;
         justify-content: space-evenly;
         background-color: purple;
-        padding: 25px;
-        scale: 125%;
+        margin-top: 0;
         position: relative;
         bottom: 3px;
         padding: 50px;
