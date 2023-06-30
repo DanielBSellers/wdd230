@@ -46,6 +46,7 @@ li {
     opacity: .75;
 }
 footer {
+    color:#ffffff;
     scale: 125%;
     font-size: medium;
     background-color: slateblue;
@@ -53,7 +54,7 @@ footer {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    text-shadow: 2px 2px 3px #F0D41D;
+    /* text-shadow: 2px 2px 3px #F0D41D; */
 }
 #inlineP, #lastUpdated, #currentYear {
     display: inline;
