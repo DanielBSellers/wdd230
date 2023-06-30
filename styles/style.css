@@ -47,13 +47,13 @@ li {
 }
 footer {
     scale: 125%;
-    font-size: large;
+    font-size: medium;
     background-color: slateblue;
     text-align: center;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    text-shadow: 2px 2px 3px #ffffff;
+    text-shadow: 2px 2px 3px #F0D41D;
 }
 #inlineP, #lastUpdated, #currentYear {
     display: inline;
