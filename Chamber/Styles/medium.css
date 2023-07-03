@@ -126,7 +126,7 @@
     }
     main div p {
         display: block;
-        text-align: justify;
+        text-align: center;
         margin: 5%
     }
     #heroImage {
@@ -146,6 +146,9 @@
     }
     #bisPH {
         grid-row: 2;        
+    }
+    #bisPH p {
+        text-align: center;
     }
     .bisGrid {
         display: grid;

@@ -91,7 +91,7 @@ main h2 {
 }
 main div p {
     display: block;
-    text-align: justify;
+    text-align: center;
     margin: 2%
 }
 #imagePH {
@@ -129,6 +129,9 @@ main #weatherPH p {
 }
 #bisPH img {
     width: 100%;
+}
+#bisPH p {
+    text-align: center;
 }
 .buisTwo {
     display: none;

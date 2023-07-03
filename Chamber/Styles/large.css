@@ -123,7 +123,8 @@
     #bisPH p {
         display: inline;
         font-size: medium;
-        margin-bottom: 25%;
+        margin: 25%;
+        text-align: center;
     }
     .bisGrid {
         display: inline;
@@ -138,7 +139,7 @@
     }
     main div p {
         display: block;
-        text-align: justify;
+        text-align: center;
         margin: 5%
     }
     /* footer */
