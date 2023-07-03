@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Homepage for Chamber site">
     <title>Chamber of Commerce South Ogden Utah</title>
     <link rel="icon" type="image/x-icon" href="Icon/faviconBMP.bmp">
-    <link rel="stylesheet" href="Styles/large.css">
-    <link rel="stylesheet" href="Styles/medium.css">
     <link rel="stylesheet" href="Styles/small.css">
+    <link rel="stylesheet" href="Styles/medium.css">
+    <link rel="stylesheet" href="Styles/large.css">
     <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -33,7 +35,7 @@
     <main>
         <div id="comeMeetBanner" class="on"><p>&#x1F91D; Come join us for the chamber meet and greet Wednesday at 7:00 p.m.!</p></div>
         
-        <picture class="mainPicture" style="margin-left: -10px;">
+        <picture class="mainPicture" style="margin: auto; display: block;">
             <source media="(max-width: 360px)" srcset="Image/heroImageMinest.jpg">
             <source media="(max-width: 820px)" srcset="Image/heroImageMin.jpg">
             <source media="(min-width: 821px)" srcset="Image/heroImageHeavy.jpg">
@@ -41,7 +43,7 @@
         </picture>
         <div id="mainGrid">
         <div class="wireframe" id="newsPH"><strong><h2>Local News</h2></strong>
-            <br><p><strong>I-15 crash kills 
+            <p><strong>I-15 crash kills 
             3, forces temporary closure of roadway in Farr West</strong><br>
             FARR WEST — A crash on Interstate 15 early Wednesday morning
              killed three and led to the temporary closure of the 
@@ -69,8 +71,7 @@
               North exit in Farr West. At around 6:50 a.m. Wednesday, 
               the roadway had reopened at the location to two-way 
               traffic.</p></div>
-        <br>
-        <div class="wireframe" id="eventsPH"><strong><h2>Events</h2></strong>
+        <div class="medDown"><div class="wireframe" id="eventsPH"><strong><h2>Events</h2></strong>
             <img src="Image/carShow.jpg" alt="image of car show" width="100%" style="margin-left: 0px;">
             <p>Come on out to the South Ogden Days Car Show, hosted for 
             a third year by the Ogden Midnight Runners! Entry for your 
@@ -81,24 +82,28 @@
             and south Ogden days are free. The event will consist of a
             car show, concert, fireworks, vendors, food trucks, and so
             much more! Bring the family out for a great time!</p></div>
-        <br>
-        <div class="wireframe" id="weatherPH"><img id="weatherIcon" src="Image/105-1055404_sun-icon-png-maks-transparent-png.png" width="250px"></img>
+        <div class="wireframe" id="weatherPH"><img id="weatherIcon" src="Image/105-1055404_sun-icon-png-maks-transparent-png.png"></img>
         <h2 class="weatherTxt"><span id="temp">45</span>&deg;F</h2>
-        <p class="weatherTxt">Windspeed: <span id="wSpeed">2</span>mph<br>Windchill :<span id="wChill"><script defer src="Scripts/windChill.js"></script></span></p>
+        <p class="weatherTxt">Windspeed: <span id="wSpeed">2</span>mph<br>Windchill :<span id="wChill"><script defer src="Scripts/windChill.js"></script></span></p></div>
         </div>
-        <br>
         <div class="wireframe" id="bisPH">
             <h2>Buisness Spotlight</h2>
-            <img src="Image/dakcsLogo.png" alt="dakcs logo" width="100%" style="margin-left: 0px;">
-            <p>For 40 years we've been making quality software solutions to tackle monumental challenges.</p>
-        </div>
+            <div class="bisGrid"><img class="buisOne" src="Image/dakcsLogo.png" alt="dakcs logo" style="margin-left: 0px;">
+            <p class="buisOne">For 40 years we've been making quality software solutions to tackle monumental challenges.</p>
+            <img class="buisTwo" src="Image/menzCuts.jpg" alt="menzCuts logo">
+            <p class="buisTwo">Menz Cutz Barber Shop is locally owned and operated. Come enjoy the real authentic Barber shop exper</p>
+            <img class="buisThree" src="Image/hidVal.jpg" alt="Hidden Vally Logo">
+            <p class="buisThree">Hidden Valley provides both assisted living and memory care services.</p>
+        </div></div>
+        <div class="join"><h2>Join Now</h2>
+        <p> Interested in joining our chamber? Click <a href="join.html" style=" margin: 0;">here</a> to apply now!</p></div>
         </div>
     </main>
     <footer>
         <img src="Image/simpleLogo.png" alt="logo in footer" width="25px" height="25px">
         <div>&copy; <div id="currentYear"></div> - Daniel Sellers</div>
         <p>1-801-622-2800</p>
-        <a href="https://www.google.com/maps/@41.1912805,-111.9678854,19z">Map</a>
+        <a href="https://www.google.com/maps/@41.1912805,-111.9678854,19z" style="font-size: medium; margin-right: 15px;">Map</a>
         <p>South Ogden Chamber of Commerce</p>
         <p>WDD 230 Project</p>
         <div><p class="inlineP">Last Updated: </p><p id="lastUpdated"></p></div>

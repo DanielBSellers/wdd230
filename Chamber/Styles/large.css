@@ -1,4 +1,4 @@
-@media screen and (min-width: 821px) {
+@media screen and (min-width: 820px) {
     header {
         background-color: rgba(0, 0, 0, .15);
     }
@@ -52,10 +52,6 @@
         display: none;
     }
     /* body wireframe */
-    .wireframe {
-        border: solid black;
-        height: 570px;
-    }
     #comeMeetBanner {
         position: absolute;
         top: 47%;
@@ -73,41 +69,68 @@
     }
     #mainGrid {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 360px 360px 360px;
+        margin-bottom: 25px;
+        position: relative;
     }
-    #imagePH {
-        grid-row: 1;
-        grid-column-start: 1;
-        grid-column-end: 5;
-        border-style: none;
+    #heroImage {
+        width: 50%;
+        height: 720px;;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        position: absolute;
+        right: 25%;
+        z-index: 6;
+    }
+    .mainPicture {
+        display: none;
     }
     #newsPH {
-        grid-row: 2;
+        grid-row: 3;
+        grid-column: 2;
+        height: 360px;
         overflow: scroll;
     }
-    #eventsPH {
-        grid-row: 2;
+    .medDown #eventsPH {
+        grid-row: 1;
+        grid-column: 1;
         overflow: scroll;
+        height: 345px;
     }
-    #weatherPH {
+    .medDown #weatherPH {
         background-color: skyblue;
         grid-row: 2;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
+        grid-column: 1;
+        height: 345px;
+        overflow: scroll;
     }
-    #weatherPH h2 {
-        font-size: 75px;
-        padding-top: 50px;
-        padding-bottom: 50px;
+    .medDown{
+        display: inline;
     }
-    #weatherPH p {
-        font-size: 35px;
-        margin-top: -25px;
+    .join {
+        display: grid;
+        grid-column: 1;
+        grid-row: 3;
+        overflow: scroll;
+        height: 345px;
     }
     #bisPH {
-        grid-row: 2;
+        grid-column: 3;
+        grid-row: 1/4;
+    }
+    #bisPH p {
+        display: inline;
+        font-size: medium;
+        margin-bottom: 25%;
+    }
+    .bisGrid {
+        display: inline;
+    }
+    .buisThree {
+        display: inline;
+        grid-row: 3;
     }
     main h2 {
         margin: 5%;
@@ -117,14 +140,6 @@
         display: block;
         text-align: justify;
         margin: 5%
-    }
-    #bisPH img {
-        scale: 90%;
-    }
-    #bisPH p {
-        padding-top: 75px;
-        font-size: 25px;
-        text-align: center;
     }
     /* footer */
     footer {

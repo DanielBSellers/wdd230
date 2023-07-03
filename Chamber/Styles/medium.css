@@ -1,4 +1,4 @@
-@media screen and (max-width: 820px) {
+@media screen and (min-width: 400px) {
     /* homepage */
     #h1 {
         grid-row: 1;
@@ -99,15 +99,11 @@
     #hamburgerBtn.open span:nth-child(2) {
         display: block;
     }
-
     /* body wireframe */
     #mainGrid {
-        display: grid;
-        grid-template-columns: 3fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
-    .wireframe {
-        border: solid black;
+        display: inline-grid;
+        grid-template-rows: auto(repeat *4);
+    
     }
     #comeMeetBanner {
         background-color: #28BBDA;
@@ -133,23 +129,43 @@
         text-align: justify;
         margin: 5%
     }
+    #heroImage {
+        width: 100%;
+    }
     #newsPH {
+        display: grid;
         grid-row: 1;
-        grid-column: 1;
+        height: 300px;
     }
     #eventsPH {
-        grid-row: 2;
-        grid-column: 1;
-    }
-    #bisPH {
         grid-row: 3;
         grid-column: 1;
     }
+    #mainGrid img {
+        width: 100%
+    }
+    #bisPH {
+        grid-row: 2;        
+    }
+    .bisGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .buisOne {
+        display: grid;
+        grid-column: 1;
+    }
+    .buisTwo {
+        display: grid;
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .bisGrid p {
+        grid-row: 2;
+    }
     #weatherPH {
         background-color: skyblue;
-        grid-column: 2;
-        grid-row-start: 1;
-        grid-row-end: 5;
+        grid-row: 4;
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
     }
@@ -171,6 +187,41 @@
         margin-bottom: auto;
         grid-row: 3;
         text-align: right;
+    }
+    .join {
+        display: block;
+        margin: auto;
+        grid-row: 3;
+    }
+    .join p {
+        text-align: center;
+        font-size: large;
+    }
+    .join p a {
+        font-size: large;
+    }
+    .join p a:hover {
+        transition: .25s;
+        font-size: x-large;
+        padding: 15px;
+        color: #28BBDA;
+    }
+    .medDown {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .medDown #eventsPH {
+        grid-column: 1;
+        grid-row: 1;
+        height: 300px;
+    }
+    .medDown #weatherPH {
+        grid-row: 1;
+        grid-column: 2;
+        height: 300px;
+    }
+    .buisThree {
+        display: none;
     }
     /* footer */
     footer {
