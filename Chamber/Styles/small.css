@@ -156,6 +156,12 @@ footer img{
 }
 footer a {
     margin-top: 1rem;
+    color: black;
+    transition: .25s;
+}
+footer a:hover {
+    font-size: x-large;
+    color: purple;
 }
 footer div {
     text-align: center;
