@@ -142,6 +142,9 @@ main #weatherPH p {
 .join {
     display: none;
 }
+#joinA {
+    margin-left: 0px;
+}
 /* footer */
 footer {
     background-color: #adadad;
@@ -158,6 +161,8 @@ footer a {
     margin-top: 1rem;
     color: black;
     transition: .25s;
+    font-size: medium; 
+    margin-right: 15px;
 }
 footer a:hover {
     font-size: x-large;

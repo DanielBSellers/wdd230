@@ -75,18 +75,15 @@
         position: relative;
     }
     #heroImage {
-        width: 50%;
-        height: 720px;;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
+        width: 48%;
+        height: 720px;
         position: absolute;
-        right: 25%;
-        z-index: 6;
+        margin-left: 25%;
+        object-fit: cover;
     }
-    .mainPicture {
+    /* .mainPicture {
         display: none;
-    }
+    } */
     #newsPH {
         grid-row: 3;
         grid-column: 2;
