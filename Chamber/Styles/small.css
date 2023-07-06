@@ -81,32 +81,37 @@ padding-top: 15px;
 #bruce {
     display: none;
 }
-#mainGrid {
-    display: block;
-}
 main h2 {
     margin: 2%;
     text-align: center;
-    display: block;
+    /* display: block; */
 }
 main div p {
-    display: block;
+    /* display: block; */
     text-align: center;
     margin: 2%
 }
-#imagePH {
-    border-style: none;
+#mainGrid {
+    display: flex;
+    flex-direction: column;
+}
+.medDown {
+    display: flex;
+    flex-direction: column;
 }
 #newsPH {
     overflow: scroll;
-    height: 100px;
+    height: 200px;
+    order: 3;
 }
 #eventsPH {
+    order: 1;
     overflow: scroll;
 }
 #weatherPH {
     background-color: skyblue;
-    display: block;
+    order: 2;
+    /* display: block; */
 }
 #weatherIcon {
     display: block;
@@ -121,20 +126,22 @@ main div p {
     margin-bottom: auto;
 }
 main #weatherPH p {
-    display: block;
+    /* display: block; */
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     padding-bottom: 10%;
 }
-#bisPH img {
-    width: 100%;
+#bisPH {
+    order: 4;
+}
+#bisPH img:nth-child(3), #bisPH img:nth-child(1) {
+    width: 90%;
+    margin: auto;
+    display: block;
 }
 #bisPH p {
     text-align: center;
-}
-.buisTwo {
-    display: none;
 }
 .buisThree {
     display: none;
@@ -149,10 +156,9 @@ main #weatherPH p {
 footer {
     background-color: #adadad;
     display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
-    align-content: space-evenly;
-    align-items: stretch;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 2em;
 }
 footer img{
     margin-top: 1rem;
@@ -171,6 +177,10 @@ footer a:hover {
 footer div {
     text-align: center;
     margin-top: .33rem;
+}
+#footerContact {
+    border-top: solid;
+    border-width: 2px;
 }
 /* discover CSS */
 #discoverGrid {

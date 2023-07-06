@@ -81,9 +81,6 @@
         margin-left: 25%;
         object-fit: cover;
     }
-    /* .mainPicture {
-        display: none;
-    } */
     #newsPH {
         grid-row: 3;
         grid-column: 2;
@@ -139,6 +136,7 @@
         text-align: center;
         margin: 5%
     }
+
     /* footer */
     footer {
         background-color: #adadad;
@@ -157,6 +155,9 @@
     footer div {
         text-align: center;
         margin-top: .33rem;
+    }
+    #footerContact {
+        margin-left: 20px;
     }
     /* discover CSS */
     #discoverGrid {
