@@ -102,8 +102,7 @@
     /* body wireframe */
     #mainGrid {
         display: inline-grid;
-        grid-template-rows: auto(repeat *4);
-    
+        grid-template-rows: auto auto auto auto;
     }
     #comeMeetBanner {
         background-color: #28BBDA;

@@ -16,6 +16,11 @@ header p {
     position: relative;
     bottom: .75rem;
 }
+#headerLogo {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
 /* button css */
 nav {
     background-color: #eee;
@@ -81,6 +86,9 @@ padding-top: 15px;
 #bruce {
     display: none;
 }
+#heroImage {
+    width: 100%;
+}
 main h2 {
     margin: 2%;
     text-align: center;
@@ -107,6 +115,9 @@ main div p {
 #eventsPH {
     order: 1;
     overflow: scroll;
+}
+#eventImg {
+    width: 100%;
 }
 #weatherPH {
     background-color: skyblue;
@@ -162,6 +173,10 @@ footer {
 }
 footer img{
     margin-top: 1rem;
+}
+#footerLogo {
+    width: 25px;
+    height: 25px;
 }
 footer a {
     margin-top: 1rem;
@@ -323,7 +338,7 @@ section img {
     margin-bottom: 5px;
     margin-right: 10px;
     border-radius: 15px;
-    scale: 50%;
+    width: 50%;
 }
 #loom-companion-mv3 {
     display: none;
