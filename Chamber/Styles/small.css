@@ -21,6 +21,9 @@ header p {
     margin: auto;
     display: block;
 }
+#pinLogo, #fbLogo {
+    width: 25px;
+}
 /* button css */
 nav {
     background-color: #eee;
