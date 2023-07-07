@@ -177,7 +177,7 @@
         height: 200px;
     }
     #discoverGrid p {
-        text-align: justify;
+        text-align: right;
     }
     .park40 {
         grid-row: 1;
