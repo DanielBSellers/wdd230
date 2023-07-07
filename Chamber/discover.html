@@ -6,29 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chamber of Commerce South Ogden Utah</title>
     <link rel="icon" type="image/x-icon" href="Icon/faviconBMP.bmp">
-    <link rel="stylesheet" href="Styles/large.css">
-    <link rel="stylesheet" href="Styles/medium.css">
     <link rel="stylesheet" href="Styles/small.css">
+    <link rel="stylesheet" href="Styles/medium.css">
+    <link rel="stylesheet" href="Styles/large.css">
     <link rel="icon" href="favicon.ico">
 </head>
 <header>
-    <nav>
-        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-        <ul id="primaryNav">
-            <li><a href="index.html">About</a></li>
-            <li><a href="join.html">Join</a></li>
-            <li><a href="directory.html">Directory</a></li>
-            <li><a href="discover.html">Discover</a></li>
-            <li><a href="#"><img src="Image/Facebook_Logo_(2019).png" alt="Facebook logo" width="25rem"></a></li>
-            <li><a href="#"><img id="pinLogo" src="Image/instagram-logo-instagram-logo.png" alt="Facebook logo" width="25rem"></a></li>
-        </ul>
-    </nav>
-    <div id="headerGrid"><h1>South Ogden Utah Chamber of Commerce</h1>
-    <figure>
-        <img src="Image/simpleLogo.png" alt="image of logo" width="100%"></div>
-    </figure>
-    <p><span id=dow></span>, <span id=numDate></span> <span id=curMonth></span> <span id=year></span></p>
-    <p>Days since last visit :<span id="daysSinceLastVisit"></span></p>
+    <header>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">About</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="https://www.facebook.com/search/top?q=south%20ogden%20city"><img src="Image/Facebook_Logo_(2019).png" alt="Facebook logo" width="25px"></a></li>
+                <li><a href="https://www.pinterest.com/vertiasfundings/"><img id="pinLogo" src="Image/instagram-logo-instagram-logo.png" alt="Pinterest logo" width="25px"></a></li>
+            </ul>
+        </nav>
+        <div id="headerGrid"><h1>South Ogden Utah Chamber of Commerce</h1>
+        <figure>
+            <img id="headerLogo" src="Image/simpleLogoBmp.bmp" alt="image of logo">
+        </figure>
+        </div>
+        <p><span id=dow></span>, <span id=numDate></span> <span id=curMonth></span> <span id=year></span></p>
+    </header>
 </header>
 <body>
     <div id="discoverGrid">
@@ -99,13 +101,14 @@
     </div>
 </body>
 <footer>
-    <img src="Image/simpleLogo.png" alt="logo in footer" width="25px" height="25px">
-    <div>&copy; <div id="currentYear"></div> - Daniel Sellers</div>
-    <p>1-801-622-2800</p>
-    <a href="https://www.google.com/maps/@41.1912805,-111.9678854,19z">Map</a>
-    <p>South Ogden Chamber of Commerce</p>
-    <p>WDD 230 Project</p>
-    <div><p id="inlineP">Last Updated: </p><p id="lastUpdated"></p></div>
+    <img id="footerLogo" src="Image/simpleLogoBmp.bmp" alt="logo in footer">
+        <div>&copy; <div id="currentYear"></div> - Daniel Sellers</div>
+        <p>South Ogden Chamber of Commerce</p>
+        <p>WDD 230 Project</p>
+        <div><p class="inlineP">Last Updated: </p><p id="lastUpdated"></p></div>
+        <div id="footerContact">Contact Us:</div>
+        <p>1-801-622-2800</p>
+        <a href="https://www.google.com/maps/place/South+Ogden,+UT/@41.1737257,-111.9554775,13z/data=!4m6!3m5!1s0x875305fc9eee04fb:0x38d9d8ff10ffbe45!8m2!3d41.1761798!4d-111.9600418!16zL20vMDEwaGNw?entry=ttu">Map</a>
 </footer>
 <script defer src="Scripts/script.js"></script>
 <script defer src="Scripts/lastVisit.js"></script>

@@ -88,6 +88,7 @@ padding-top: 15px;
 }
 #heroImage {
     width: 100%;
+    object-fit: cover;
 }
 main h2 {
     margin: 2%;
