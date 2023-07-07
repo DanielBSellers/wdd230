@@ -242,6 +242,9 @@ footer div {
 #formHead {
     text-align: center;
 }
+#hidden {
+    display: none;
+}
 fieldset {
     width: 80%;
     margin: auto;
@@ -257,8 +260,7 @@ input {
     margin-bottom: 10px;
 }
 table {
-    border-collapse: collapse;
-    width: 80%;
+    display: none;
 }
 th, td {
     text-align: center;

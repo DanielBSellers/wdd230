@@ -298,6 +298,7 @@
         text-align: center;
     }
     fieldset {
+        display: block;
         width: 80%;
         margin: auto;
     }
@@ -312,14 +313,15 @@
         margin-bottom: 10px;
     }
     table {
+        display: block;
         border-collapse: collapse;
-        width: 80%;
+        width: 500px;
     }
     th, td {
         text-align: center;
         border: solid 1px;
-        width: 20%;
-        max-width: 300px;
+        /* width: 20%;
+        max-width: 300px; */
         font-size: smaller;
     }
     .sideTable {
