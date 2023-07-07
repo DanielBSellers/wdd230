@@ -22,8 +22,8 @@
                 <li><a href="join.html">Join</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="https://www.facebook.com/search/top?q=south%20ogden%20city"><img src="Image/Facebook_Logo_(2019).png" alt="Facebook logo" width="25px"></a></li>
-                <li><a href="https://www.pinterest.com/vertiasfundings/"><img id="pinLogo" src="Image/instagram-logo-instagram-logo.png" alt="Pinterest logo" width="25px"></a></li>
+                <li><a href="https://www.facebook.com/search/top?q=south%20ogden%20city"><img id="fbLogo" src="Image/Facebook_Logo_(2019).png" alt="Facebook logo"></a></li>
+                <li><a href="https://www.pinterest.com/vertiasfundings/"><img id="pinLogo" src="Image/instagram-logo-instagram-logo.png" alt="Pinterest logo"></a></li>
             </ul>
         </nav>
         <div id="headerGrid"><h1>South Ogden Utah Chamber of Commerce</h1>
@@ -33,12 +33,9 @@
         </div>
         <p><span id=dow></span>, <span id=numDate></span> <span id=curMonth></span> <span id=year></span></p>
     </header>
-        </figure>
-        <p><span id=dow></span>, <span id=numDate></span> <span id=curMonth></span> <span id=year></span></p>
-    </header>
     <main>
     <h1 id="formHead">Apply to South Ogden Chamber of Commerce</h1>
-    <form id="formOne" method="get" action="thanks.html">
+    <form id="formOne" method="get" action="thanks.html"></form>
         <fieldset>
             <legend>Applicant</legend>
             <label><input id="hidden" type="text" name="hiddenF"></label>
@@ -51,7 +48,7 @@
             <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
             <label>Phone*<input type="tel" name="phone" placeholder="1234567890" required></label>
             <label>Business Name*<input type="text" name="bisName" placeholder="My Business position" required></label>
-            <label>Brief Business Discription<input id="buisDispo" type="textarea" name="buisDispo" placeholder="Brief Discription"></label>
+            <label>Brief Business Discription*<textarea id="buisDispo" name="buisDispo" placeholder="Brief Discription" required></textarea></label>
         </fieldset>
         <fieldset id="bisLevelFs">
             <legend>Membership Level</legend>
@@ -106,13 +103,13 @@
               </table>
               </div>
               <br><h3>Please Select a Membership Level</h3>
-              <label for="NP">NP</label>
+              <label id="NP" for="NP">NP</label>
               <input class="formBtn" type="radio" name="memLev" value="NP">
-              <label for="bronze">Bronze</label>
+              <label id="bronze" for="bronze">Bronze</label>
               <input class="formBtn" type="radio" name="memLev" value="bronze">
-              <label for="silver">Silver</label>
+              <label id="silver" for="silver">Silver</label>
               <input class="formBtn" type="radio" name="memLev" value="silver">
-              <label for="gold">Gold</label>
+              <label id="gold" for="gold">Gold</label>
               <input class="formBtn" type="radio" name="memLev" value="gold">
         </fieldset>
         <div id="lastForm"><p>Form last upated: </p><div id="formEdit"></div></div>

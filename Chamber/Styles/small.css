@@ -249,10 +249,10 @@ fieldset {
     width: 80%;
     margin: auto;
 }
-input:valid {
+input:valid, textarea:valid {
     background-color: palegreen;
 }
-input:invalid {
+input:invalid, textarea:invalid {
     background-color: lightpink;
 }
 input {
@@ -278,6 +278,9 @@ table td ul li {
     text-align: left;
     position: relative;
     right: 15px;
+}
+textarea {
+    display: block;
 }
 .formBtn {
     padding: 44px;
