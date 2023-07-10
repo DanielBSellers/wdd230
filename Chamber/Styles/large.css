@@ -93,6 +93,9 @@
         overflow: scroll;
         height: 345px;
     }
+    #weatherPH #weatherIcon {
+        width: 10rem;
+    }
     .medDown #weatherPH {
         background-color: skyblue;
         grid-row: 2;
