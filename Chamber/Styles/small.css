@@ -82,6 +82,7 @@ padding-top: 15px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    z-index: 60;
 }
 #comeMeetBanner p {
     text-align: center;
