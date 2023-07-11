@@ -11,7 +11,7 @@ const lazyLoad = (img) => {
 
 const options = {
     threshold: 1,
-    rootMargin: "0px 0px 50px 0px"
+    rootMargin: "0px 0px 30px 0px"
 };
 
 if ('IntersectionObserver' in window) {
@@ -20,7 +20,6 @@ if ('IntersectionObserver' in window) {
             if(item.isIntersecting) {
                 lazyLoad(item.target);
                 observer.unobserve(item.target);
-                IntersectionObserver.target.className.add('tupid');
             }
         });
     }, options);
@@ -28,8 +27,8 @@ if ('IntersectionObserver' in window) {
         obsrvr.observe(img);
     });
 }
-else {
-    allImages.forEach((img) => {
-        lazyLoad(img);
-    });
-}
+// else {
+//     allImages.forEach((img) => {
+//         lazyLoad(img);
+//     });
+// }

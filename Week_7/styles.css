@@ -2,6 +2,11 @@ body {
     display: flex;
     flex-direction: column;
 }
+body h1 {
+    display: block;
+    margin: auto;
+    font-size: xx-large;
+}
 img {
     opacity: 0;
     transition: all 1s;
