@@ -330,6 +330,7 @@ section {
     border-radius: 15px;
     margin: 20px;
     background-color: #28BBDA;
+    height: 35rem;
 }
 section h2 h3 img a {
     margin-left: 10px;
@@ -338,17 +339,18 @@ section h2 h3 img a {
 section a {
     display: block;
     padding: 5px;
+    transition: .25s;
 }
 section a:hover {
     margin-left: 20px;
     color: white;
 }
 section img {
-    border-width: 10px;
     margin-bottom: 5px;
     margin-right: 10px;
     border-radius: 15px;
-    width: 50%;
+    width: 100%;
+    object-fit: contain;
 }
 #loom-companion-mv3 {
     display: none;
