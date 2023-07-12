@@ -330,8 +330,9 @@ section {
     border-radius: 15px;
     margin: 20px;
     background-color: #28BBDA;
-    height: 35rem;
+    height: 37rem;
     width: 90%;
+    transition: .5s;
 }
 section h2 h3 img a {
     margin-left: 10px;
@@ -341,6 +342,8 @@ section a {
     display: block;
     padding: 5px;
     transition: .25s;
+    color: #800080;
+    font-size: larger;
 }
 section a:hover {
     margin-left: 20px;
@@ -373,6 +376,6 @@ section img {
 .list section img{
     display: none;
 }
-.list section h2, h3, a {
+.list section h2, .list h3, .list a {
     font-size: x-small;
 }
