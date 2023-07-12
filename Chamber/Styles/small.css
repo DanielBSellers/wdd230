@@ -217,6 +217,11 @@ footer div {
     width: 100px;
     height: 100px;
     object-fit: cover;
+    opacity: 0;
+    transition: all 1s;
+}
+#discoverGrid img.in {
+    opacity: 1;
 }
 #discoverGrid p {
     text-align: justify;
