@@ -342,7 +342,7 @@ section a {
     display: block;
     padding: 5px;
     transition: .25s;
-    color: #800080;
+    color: black;
     font-size: larger;
 }
 section a:hover {
