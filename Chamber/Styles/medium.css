@@ -417,9 +417,9 @@
         display: none;
     }
     .list section .list section h2, .list h3, .list a {
-        font-size: x-small;
+        font-size: small;
     }
     .list h2{
-        font-size: x-small;
+        font-size: small;
     }
 }

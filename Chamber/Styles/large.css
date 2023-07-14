@@ -339,6 +339,6 @@
         display: none;
     }
     .list section h2, .list h3, .list a {
-        font-size: x-small;
+        font-size: medium;
     }
 }
