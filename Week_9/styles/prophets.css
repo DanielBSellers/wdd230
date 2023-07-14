@@ -8,9 +8,8 @@ h1 {
     text-align: center;
 }
 div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-rows: auto;
 }
 section {
     border: solid 3px black;
@@ -20,6 +19,7 @@ section {
 }
 h2, h3, img {
     margin-left: 10px;
+    text-align: center;
 }
 img {
     box-shadow: 0 0 50px rgb(106, 233, 255);
@@ -27,6 +27,8 @@ img {
     margin-bottom: 5px;
     margin-right: 10px;
     border-radius: 15px;
+    display: block;
+    margin: auto;
 }
 #loom-companion-mv3 {
     display: none;
