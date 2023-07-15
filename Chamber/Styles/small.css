@@ -137,6 +137,9 @@ main div p {
     margin: auto;
     width: 25%;
 }
+figcaption {
+    text-align: center;
+}
 #weatherPH h2 {
     grid-column: 1;
     grid-row: 2;
