@@ -5,7 +5,3 @@ form.addEventListener("input", function () {
     document.getElementById('formEdit').innerHTML = jd; 
 });
 
-window.addEventListener("load", function() {
-    const loadingTime = new Date();
-    document.getElementById('hidden').value = loadingTime;
-});
