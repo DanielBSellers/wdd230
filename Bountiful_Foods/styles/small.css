@@ -24,7 +24,7 @@ header nav {
     grid-template-columns: 1fr 1fr 1fr;
 }
 header nav a, header h1 {
-    color: #93C7FA;
+    color: #010138;
     transition: .25s;
 }
 header a:hover {
