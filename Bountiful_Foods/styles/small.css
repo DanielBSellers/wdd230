@@ -51,6 +51,25 @@ button {
     font-family: 'Roboto Slab', sans-serif;
     text-shadow: 4px 2px 4px #000555;
 }
+#localWeather {
+    border: solid 3px #000555;
+    margin-top: 1rem;
+}
+#curWeathGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#curWeathGrid h3 {
+    grid-column: 2;
+}
+#curWeathGrid figure {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+}
+#threeForecast {
+    border-top: solid 2px #000555;
+}
 #forcastGrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -58,8 +77,14 @@ button {
 .inline4, #tmrTemp, #twodayTemp, #threedayTemp {
     display: inline;
 }
+.offTheWall {
+    margin-left: 1rem;
+}
 #contact {
     border: solid 2px;
+}
+.unline:hover {
+    text-decoration: underline 1px;
 }
 body main div ul li a img {
     width: 33px;
@@ -82,17 +107,13 @@ input:invalid, textarea:invalid {
     background-color: lightpink;
 }
 #specInstro input[type=text] {
-    width: 100%;
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    resize: none;
+    width: 90%;
+}
+#frshImg {
+    display: none;
 }
 /* about us */
-#beachImg, #smoothieBoard {
+#headerImg, #smoothieBoard, #beachImg {
     width: 100%;
     object-fit: cover;
 }
@@ -106,6 +127,7 @@ section {
 footer {
     background-color: #70DF03;
     padding: 1rem;
+    text-align: center;
 }
 footer h5 {
     display: inline;

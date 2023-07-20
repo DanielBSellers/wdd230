@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Homepage for Bountiful Foods">
+    <meta name="description" content="custom fruit order for Bountiful Foods">
     <title>Fresh</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet"><link rel="icon" type="image/x-icon" href="Images/icon_start.ico">
     <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/normalize.css">
 </head>
 <body>
 <!-- The form requires the following items from the user:
@@ -19,8 +22,6 @@ fruits.
 Available fruit options must only come from this JSON data 
 source for full credit consideration: Fruit DataLinks to an 
 external site.
-and, include an area that allows them to add special 
-instructions, if needed.
 Do NOT send the form to a new page upon form submission. 
 Instead, use a JavaScript event handler to produce a formatted 
 output area on this same page showing:
@@ -43,37 +44,40 @@ form. The data source provides that information per fruit. -->
         </div>
     </header>
     <main>
-        <fieldset>
-            <legend>Applicant</legend>
-            <label><input type="hidden" name="hiddenF"></label>
-            <label>First Name*<input type="text" name="fname" placeholder="John" required></label>
-            <label>Last Name*<input type="text" name="lname" placeholder="Doe" required></label>
-            <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
-            <label>Phone*<input type="tel" name="phone" placeholder="1234567890" required></label>
-        </fieldset>
-        <fieldset>
-            <legend>Add Fruit</legend>
-            <label for="fruitChoice">Choose your Fruit:</label> 
-            <select name="fruitChoice1" id="fChoi1">
-                <option></option>
-                <option id="fOp1"></option>
-            </select>
-            <select name="fruitChoice2" id="fChoi2">
-                <option></option>
-                <option id="fOp2"></option>
-            </select>
-            <select name="fruitChoice3" id="fChoi3">
-                <option></option>
-                <option id="fOp3"></option>
-            </select>
-        </fieldset>
-        <fieldset id="specInstro">
-            <legend>
-                Special Instructions
-            </legend>
-            <input type="text" name="specialInstructions">
-        </fieldset>
-    </main>
+        <img id="frshImg" src="Images/freshImg.jpg" alt="girls on a beach enjoying a smoothie">
+        <div id="freshGrid">
+            <fieldset>
+                <legend>Applicant</legend>
+                <label><input type="hidden" name="hiddenF"></label>
+                <label>First Name*<input type="text" name="fname" placeholder="John" required></label>
+                <label>Last Name*<input type="text" name="lname" placeholder="Doe" required></label>
+                <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label>Phone*<input type="tel" name="phone" placeholder="1234567890" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Add Fruit</legend>
+                <label for="fruitChoice">Choose your Fruit:</label> 
+                <select name="fruitChoice1" id="fChoi1">
+                    <option></option>
+                    <option id="fOp1"></option>
+                </select>
+                <select name="fruitChoice2" id="fChoi2">
+                    <option></option>
+                    <option id="fOp2"></option>
+                </select>
+                <select name="fruitChoice3" id="fChoi3">
+                    <option></option>
+                    <option id="fOp3"></option>
+                </select>
+            </fieldset>
+            <fieldset id="specInstro">
+                <legend>
+                    Special Instructions if Needed
+                </legend>
+                <input type="text" name="specialInstructions">
+            </fieldset>
+        </div>
+        </main>
     <footer>
         <h5>Ask how you can get free food!</h5>
         <h5>Conatct Us</h5>

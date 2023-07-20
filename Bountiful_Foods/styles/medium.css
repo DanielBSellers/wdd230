@@ -1,0 +1,35 @@
+@media screen and (min-width: 550px) {
+    section p {
+        text-align: left;
+        padding: 0em 2em;
+    }
+    #medGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr .25fr;
+    }
+    #localWeather {
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    #contact {
+        margin-top: 1rem;
+        grid-column: 2;
+        grid-row: 1;
+        display: inline;
+        border: none;
+    }
+    #drinkNum {
+        grid-column: 2;
+    }
+    /* fresh */
+    fieldset {
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+    /* About Us */
+    #btUs section p {
+        padding: 0rem 5rem;
+    }
+}

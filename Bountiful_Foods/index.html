@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet"><link rel="icon" type="image/x-icon" href="Images/icon_start.ico">
     <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/normalize.css">
 </head>
 <body>
 <!-- The page must contain the following.
@@ -29,58 +32,76 @@
         </div>
     </header>
     <main>
-        <img id="heroImage" src="Images/heroImage.jpg" alt="image of smoothies on a beach">
-        <h2>Who We Are!</h2>
-        <p>We produce organic, locally grown foods for the heath
-            and satisfaction of our community. Our mission is to 
-            provide fresh and healthy food options, including 
-            organic, made to order, fruit drinks and fruit bags, to
-            the local population and to tourists visiting the coastal
-            areas.</p>
-        <h2>Where We Are!</h2>
-        <p>We are located right next to Carlsbad State Beach. It 
-            offers swimming, surfing, scuba diving, fishing and 
-            beachcombing. This small beach is located at the foot of 
-            coastal bluffs, south of the town on Carlsbad.</p>
-        <h2>Make your Own Drink!</h2>
-        <p>Want to make your own fruity drink? Click below to get 
-            started</p>
-        <button onclick="window.location.href='fresh.html';">Make my own drink</button>
-        <h2>Local Weather</h2>
-        <figure><img id="weatherIcon" src="blank" alt="weather icon">
-            <figcaption id="curDesc"></figcaption></figure>
-        <h2><span id="temp"></span>&deg;F</h2>
-        <h3>Humidity: <span id="humid"></span>%</h3>
-        <h3>Three Day Forcast</h3>
-        <div id="forcastGrid">
-            <div id="tomorrow">
-                <h3>Tomorrow</h3>
-                <h4 id="tmrTemp"></h4><h4 class="inline4">&deg;F</h4>
-                <h4 id="disco1"></h4>
+        <div id="largeGrid">
+            <img id="heroImage" src="Images/heroImage.jpg" alt="image of smoothies on a beach">
+            <section>
+                <h2>Who We Are!</h2>
+                <p>We produce organic, locally grown foods for the heath
+                    and satisfaction of our community. Our mission is to 
+                    provide fresh and healthy food options, including 
+                    organic, made to order, fruit drinks and fruit bags, to
+                    the local population and to tourists visiting the coastal
+                    areas.</p>
+            </section>
+            <section>
+                <h2>Where We Are!</h2>
+                <p>We are located right next to Carlsbad State Beach. It 
+                    offers swimming, surfing, scuba diving, fishing and 
+                    beachcombing. This small beach is located at the foot of 
+                    coastal bluffs, south of the town on Carlsbad.</p>
+            </section>
+            <section>
+                <h2>Make your Own Drink!</h2>
+                <p>Want to make your own fruity drink? Click below to get 
+                    started</p>
+                <button onclick="window.location.href='fresh.html';">Make my own drink</button>
+            </section>
+            <div id="medGrid">
+                <section id="localWeather">
+                    <h2>Local Weather</h2>
+                    <div id="curWeathGrid">
+                        <figure><img id="weatherIcon" src="blank" alt="weather icon">
+                            <figcaption id="curDesc"></figcaption>
+                        </figure>
+                        <h2><span id="temp"></span>&deg;F</h2>
+                        <h3>Humidity: <span id="humid"></span>%</h3>
+                    </div>
+                    <h3 id="threeForecast">Three Day Forcast</h3>
+                    <div id="forcastGrid">
+                        <div id="tomorrow">
+                            <h3>Tomorrow</h3>
+                            <h4 id="tmrTemp"></h4><h4 class="inline4">&deg;F</h4>
+                            <h4 id="disco1"></h4>
+                        </div>
+                        <div id="dayTwo">
+                            <h3>Two Days</h3>
+                            <h4 id="twodayTemp"></h4><h4 class="inline4">&deg;F</h4>
+                            <h4 id="disco2"></h4>
+                        </div>
+                        <div id="dayThree">
+                            <h3>Three Days</h3>
+                            <h4 id="threedayTemp"></h4><h4 class="inline4">&deg;F</h4>
+                            <h4 id="disco3"></h4>
+                        </div>
+                    </div>
+                </section>
+                <section id="drinkNum">
+                    <h2 class="offTheWall">Number of Custom Drinks: <span id="drinkNum"></span></h2>
+                </section>
+                <section>
+                    <div id="contact">
+                    <h2 class="offTheWall">Contact Us</h2>
+                    <ul>
+                        <li class="unline">Email: Bountiful@foods.com</li>
+                        <li class="unline">Phone: (209)-564-6369</li>
+                        <li><a href="https://www.facebook.com/"><img src="Images/Facebook_Logo_(2019).png" alt="Facebook Logo"></a></li>
+                        <li><a href="https://www.instagram.com/"><img src="Images/instagram-icon-instagram-logo.png" alt="Instagram Logo"></a></li>
+                        <li><a href="https://www.pinterest.com/"><img src="Images/pinterest-logo-instagram-logo.png"></a></li>
+                        <li><a href="https://www.google.com/maps/place/33%C2%B007'40.2%22N+117%C2%B019'35.1%22W/@33.1278304,-117.3310164,17z/data=!3m1!4b1!4m13!1m8!3m7!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!2sCarlsbad,+CA!3b1!8m2!3d33.1580933!4d-117.3505939!16zL20vMHI0d24!3m3!8m2!3d33.127826!4d-117.326403?entry=ttu" target=”_blank”>Map</a></li>
+                    </ul>
+                </section>
+                </div>
             </div>
-            <div id="dayTwo">
-                <h3>Two Days</h3>
-                <h4 id="twodayTemp"></h4><h4 class="inline4">&deg;F</h4>
-                <h4 id="disco2"></h4>
-            </div>
-            <div id="dayThree">
-                <h3>Three Days</h3>
-                <h4 id="threedayTemp"></h4><h4 class="inline4">&deg;F</h4>
-                <h4 id="disco3"></h4>
-            </div>
-        </div>
-        
-            <h2>Number of Custom Drinks: <span id="drinkNum"></span></h2>
-        <div id="contact">
-            <h2>Contact Us</h2>
-            <ul>
-                <li>Email: Bountiful@foods.com</li>
-                <li>Phone: (209)-564-6369</li>
-                <li><a href="https://www.facebook.com/"><img src="Images/Facebook_Logo_(2019).png" alt="Facebook Logo"></a></li>
-                <li><a href="https://www.instagram.com/"><img src="Images/instagram-icon-instagram-logo.png" alt="Instagram Logo"></a></li>
-                <li><a href="https://www.pinterest.com/"><img src="Images/pinterest-logo-instagram-logo.png"></a></li>
-                <li><a href="https://www.google.com/maps/place/33%C2%B007'40.2%22N+117%C2%B019'35.1%22W/@33.1278304,-117.3310164,17z/data=!3m1!4b1!4m13!1m8!3m7!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!2sCarlsbad,+CA!3b1!8m2!3d33.1580933!4d-117.3505939!16zL20vMHI0d24!3m3!8m2!3d33.127826!4d-117.326403?entry=ttu" target=”_blank”>Map</a></li>
-            </ul>
         </div>
     </main>
     <footer>
