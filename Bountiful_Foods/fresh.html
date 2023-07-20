@@ -48,7 +48,6 @@ form. The data source provides that information per fruit. -->
         <div id="freshGrid">
             <fieldset>
                 <legend>Applicant</legend>
-                <label><input type="hidden" name="hiddenF"></label>
                 <label>First Name*<input type="text" name="fname" placeholder="John" required></label>
                 <label>Last Name*<input type="text" name="lname" placeholder="Doe" required></label>
                 <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
@@ -56,35 +55,36 @@ form. The data source provides that information per fruit. -->
             </fieldset>
             <fieldset>
                 <legend>Add Fruit</legend>
-                <label for="fruitChoice">Choose your Fruit:</label> 
+                <label  name="fruitChoice">Choose your Fruit:</label> 
                 <select name="fruitChoice1" id="fChoi1">
-                    <option></option>
-                    <option id="fOp1"></option>
+                    <option> </option>
+                    <option id="fOp1">filler</option>
                 </select>
                 <select name="fruitChoice2" id="fChoi2">
-                    <option></option>
-                    <option id="fOp2"></option>
+                    <option> </option>
+                    <option id="fOp2">filler</option>
                 </select>
                 <select name="fruitChoice3" id="fChoi3">
-                    <option></option>
-                    <option id="fOp3"></option>
+                    <option> </option>
+                    <option id="fOp3">filler</option>
                 </select>
             </fieldset>
             <fieldset id="specInstro">
                 <legend>
                     Special Instructions if Needed
                 </legend>
+                <label>Any Instructions?</label>
                 <input type="text" name="specialInstructions">
             </fieldset>
         </div>
         </main>
-    <footer>
-        <h5>Ask how you can get free food!</h5>
-        <h5>Conatct Us</h5>
-        <h5>&copy;Bountiful Foods LLC</h5>
-        <h5>Last Updated: <span id="lastUpdated"></span></h5>
-        <h5>Current Date: <span id=dow></span>, <span id=curMonth></span> <span id=numDate></span> </span><span id=year></span></h5>
-    </footer>
+        <footer>
+            <h5>Ask how you can get free food!</h5>
+            <h5>Conatct Us</h5>
+            <h5>&copy;Bountiful Foods LLC</h5>
+            <h5>Last Updated: <span id="lastUpdated"></span></h5>
+            <h5>Current Date: <span id=dow></span>, <span id=curMonth></span> <span id=numDate></span> <span id=year></span></h5>
+        </footer>
     <script defer src="scripts/weather.js"></script>
     <script defer src="scripts/forcast.js"></script>
     <script defer src="scripts/curTime.js"></script>
