@@ -10,3 +10,8 @@ document.querySelector("#curMonth").innerHTML = nowMonth;
 const y = new Date();
 let nowYear = y.getFullYear();
 document.getElementById("year").innerHTML = nowYear;
+
+
+const year = document.getElementById("currentYear");
+var updatedDate = new Date().getFullYear();
+year.textContent = updatedDate;
